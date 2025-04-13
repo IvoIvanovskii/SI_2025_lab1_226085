@@ -1,0 +1,24 @@
+Индекс број: 226085  
+Име и презиме: Иво Ивановски  
+
+Опис:  
+Овој репозиториум содржи основен Node.js проект кој користи Express.js за креирање на сервер. Има две главни рути:
+- `/` — враќа “Hello World”
+- `/health` — враќа “OK”
+
+Проектот е структуриран со package.json, конфигурации за npm и git, и README.md со краток опис.
+
+Git команди што беа користени:
+- git init
+- git add .
+- git commit -m "initial commit"
+- git branch -M main
+- git remote add origin https://github.com/IvoIvanovskii/node-health-check.git
+- git push -u origin main
+
+Гранки:
+- `main` — главна и единствена гранка за овој проект. Содржи целата имплементација.
+
+Дополнителни напомени:
+- Проектот е подготвен за хостинг на платформи како Render или Railway.
+- Поставен е `.gitignore` за Node.js и `node_modules`.
